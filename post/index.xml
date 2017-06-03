@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on MyBatis 相关工具</title>
-    <link>http://mybatis3.github.io/post/</link>
+    <link>https://mybatis3.github.io/post/</link>
     <description>Recent content in Posts on MyBatis 相关工具</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://mybatis3.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mybatis3.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MyBatis</title>
-      <link>http://mybatis3.github.io/post/main/</link>
+      <link>https://mybatis3.github.io/post/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://mybatis3.github.io/post/main/</guid>
+      <guid>https://mybatis3.github.io/post/main/</guid>
       <description>强烈推荐必读文章  深入了解 MyBatis 参数 深入了解 MyBatis 返回值 MyBatis-Spring 配置简单了解 MybatisGeneator 详解 MyBatis Geneator 中文文档 MyBatis 博客专题  MyBatis官方内容 官方仓库：https://github.com/mybatis/mybatis-3
 当前版本：
 官方文档：http://mybatis.github.io/mybatis-3/index.html
@@ -30,39 +30,39 @@ MyBatis 通用 Mapper 源码地址：
     
     <item>
       <title>MyBatis 从入门到精通</title>
-      <link>http://mybatis3.github.io/post/book/</link>
+      <link>https://mybatis3.github.io/post/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://mybatis3.github.io/post/book/</guid>
+      <guid>https://mybatis3.github.io/post/book/</guid>
       <description> 购买链接 资源下载 </description>
     </item>
     
     <item>
       <title>作者信息</title>
-      <link>http://mybatis3.github.io/post/author/</link>
+      <link>https://mybatis3.github.io/post/author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://mybatis3.github.io/post/author/</guid>
+      <guid>https://mybatis3.github.io/post/author/</guid>
       <description>博客：http://blog.csdn.net/isea533
 邮箱：abel533@gmail.com</description>
     </item>
     
     <item>
       <title>捐赠</title>
-      <link>http://mybatis3.github.io/post/donate/</link>
+      <link>https://mybatis3.github.io/post/donate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://mybatis3.github.io/post/donate/</guid>
+      <guid>https://mybatis3.github.io/post/donate/</guid>
       <description> 
 支付宝二维码 微信二维码 </description>
     </item>
     
     <item>
       <title>捐赠列表</title>
-      <link>http://mybatis3.github.io/post/donate-list/</link>
+      <link>https://mybatis3.github.io/post/donate-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://mybatis3.github.io/post/donate-list/</guid>
+      <guid>https://mybatis3.github.io/post/donate-list/</guid>
       <description>￥2 blueandwh**** 微信支付2015-05-17 ￥10.00 王** 支付宝2015-06-10 ￥10.00 台** 支付宝2015-06-10 ￥10.00 陈** 支付宝2015-06-10 ￥2.00 叶** 支付宝2015-06-10 ￥1.00 竺** 支付宝2015-06-10 ￥10.00 方** 支付宝2015-06-10 ￥1.00 苏** 支付宝2015-06-10 ￥5.00 陈** 支付宝2015-06-10 ￥3.00 张** 支付宝2015-06-10 ￥10.00 朱** 支付宝2015-06-10 ￥5.00 屈** 支付宝2015-06-10 ￥10.00 威 微信支付2015-06-10 ￥2.00 快乐E调 微信支付2015-06-10 ￥2.00 晶晶 微信支付2015-06-10 ￥2.00 李秀文 微信支付2015-06-10 ￥5.00 巴蒂 微信支付2015-06-10 ￥10.00 美食地图 微信支付2015-06-10 ￥1.00 李海龙 微信支付2015-06-10 ￥4.50 豆豆 微信支付2015-06-10 ￥2.00 陈雷 微信支付2015-06-10 ￥10.01 千陌 微信支付2015-06-10 ￥10.00 微控 微信支付2015-06-10 ￥9.</description>
     </item>
     
