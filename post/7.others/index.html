@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> 7. 其他插件 &middot; MyBatis 相关工具 </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" type="text/css" href="https://mybatis3.github.io/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="https://mybatis3.github.io/css/main.css" />
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      
+      
+      
+      hm.src = "https://hm.baidu.com/hm.js?f2777cba9390c9eab27ec91f8baa1742";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</head>
+
+    <body>
+        <div class="content-wrapper">
+            <div class="content-wrapper__inner">
+                <div class="post">
+                    <h1>7. 其他插件</h1>
+                    <span class="post-date">Mon, Jan 1, 0001</span>
+                    
+
+<h4 id="1-jdbctype-自动配置插件-运行时自动添加-jdbctype-属性">(1)  JdbcType 自动配置插件 - 运行时自动添加 jdbcType 属性</h4>
+
+<p>源码地址：
+<a href="http://git.oschina.net/free/Mybatis_Utils/tree/master/JdbcType">http://git.oschina.net/free/Mybatis_Utils/tree/master/JdbcType</a></p>
+
+<h4 id="2-sqlhelper-获取sql">(2)  SqlHelper - 获取sql</h4>
+
+<p>gitosc地址：
+<a href="http://git.oschina.net/free/Mybatis_Utils/tree/master/SqlHelper">http://git.oschina.net/free/Mybatis_Utils/tree/master/SqlHelper</a></p>
+
+<p>相关文章：
+<a href="http://blog.csdn.net/isea533/article/details/40044417">http://blog.csdn.net/isea533/article/details/40044417</a></p>
+
+<h4 id="3-performanceinterceptor">(3)  PerformanceInterceptor</h4>
+
+<h5 id="性能拦截器-用于输出每条-sql-语句及其执行时间">性能拦截器，用于输出每条 SQL 语句及其执行时间</h5>
+
+<p>源码地址：
+<a href="http://git.oschina.net/free/Mybatis_Utils/tree/master/Performance">http://git.oschina.net/free/Mybatis_Utils/tree/master/Performance</a></p>
+
+<h5 id="简单说明">简单说明：</h5>
+
+<p>性能分析拦截器主要输出Sql以及Sql执行的时间，该拦截器会损失一定的整体性能，所以建议在测试环境使用，正式环境不建议使用。</p>
+
+<p>另外，如果配置了多个拦截器，那么一定要把这个拦截器配置在第一个，否则其他需要修改Sql的拦截器会对该拦截器获取Sql部分产生影响。</p>
+
+<p>建议根据个人需求对该拦截器进行修改。</p>
+
+<h4 id="4-camehumpinterceptor">(4)  CameHumpInterceptor</h4>
+
+<h5 id="返回值map结果的key转为驼峰式">返回值Map结果的Key转为驼峰式</h5>
+
+<p>例如返回结果中Map的<code>{REAL_NAME:liuzh}</code>会转换为<code>{realName:liuzh}</code></p>
+
+<p>源码地址：
+<a href="http://git.oschina.net/free/Mybatis_Utils/tree/master/CameHumpMap">http://git.oschina.net/free/Mybatis_Utils/tree/master/CameHumpMap</a></p>
+
+<h4 id="5-mybatis-返回动态结果类型插件">(5)  MyBatis 返回动态结果类型插件</h4>
+
+<p>可以在 MyBatis 参数中带上要返回的类型Class，插件就会改变返回值类型为你指定的类型。</p>
+
+<p>相关文章：
+<a href="http://blog.csdn.net/isea533/article/details/52831556">http://blog.csdn.net/isea533/article/details/52831556</a></p>
+
+<p>源码地址：
+<a href="http://git.oschina.net/free/Mybatis_Utils/tree/master/ResultType">http://git.oschina.net/free/Mybatis_Utils/tree/master/ResultType</a></p>
+
+                </div>
+            </div>
+        </div>
+    </body>
+        
+    <script src="https://mybatis3.github.io/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://mybatis3.github.io/js/index.min.js"></script>
+
+</html>
