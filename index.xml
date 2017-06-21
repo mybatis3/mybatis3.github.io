@@ -12,11 +12,32 @@
     
     <item>
       <title>0. MyBatis 从入门到精通</title>
-      <link>https://mybatis3.github.io/post/1-1.book/</link>
+      <link>https://mybatis3.github.io/post/0.book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mybatis3.github.io/post/1-1.book/</guid>
-      <description> A. 购买链接 B. 博客地址 C. 资源下载 </description>
+      <guid>https://mybatis3.github.io/post/0.book/</guid>
+      <description>A. 购买链接 预售地址：京东，当当，亚马逊
+ 当前还属于预售阶段，请以最终显示价格为准。
+ B. 试读章节 CSDN博客：http://blog.csdn.net/isea533/article/details/73555400
+GitHub项目：https://github.com/mybatis-book/book
+C. 资源下载 百度网盘下载： 链接：http://pan.baidu.com/s/1sl2kERV
+密码：gs26
+本站下载： simple-start.zip
+书中第一章的源码，是一个学习 MyBatis 的基础环境。
+simple-all.zip
+书中基本用法、动态SQL、拦截器、高级用法的完整源码。
+在 mybatis-spring-boot 项目中引用了本项目。
+mybatis-spring.zip
+MyBatis 和 Spring 集成的项目。
+mybatis-spring-boot.zip
+MyBatis 和 Spring Boot 集成的项目。
+mybatis-3.zip
+官方 GitHub 源码，解压后可以通过 git remote -v 查看远程仓库。
+通过 git pull mybatis3 可以更新到最新代码。
+mybatis-generator-1.3.3.zip
+官方发布的代码生成器，书中使用的 1.3.3 版本。
+mybatis-generator-eclipse-site-1.3.3.201606241937.zip
+官方提供的 Eclipse 插件。</description>
     </item>
     
     <item>
@@ -25,7 +46,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mybatis3.github.io/post/1.blogs/</guid>
-      <description>  深入了解 MyBatis 参数 深入了解 MyBatis 返回值 MyBatis-Spring 配置简单了解 MybatisGeneator 详解 MyBatis Geneator 中文文档 MyBatis 博客专题  博客专题  Mybatis问题集 Mybatis示例  </description>
+      <description>1. 深入了解 MyBatis 参数
+2. 深入了解 MyBatis 返回值
+3. MyBatis-Spring 配置简单了解
+4. MybatisGeneator 详解
+5. MyBatis Geneator 中文文档
+博客专题 1. Mybatis问题集
+2. Mybatis示例</description>
     </item>
     
     <item>
@@ -49,7 +76,8 @@ MyBatis-Spring 官方文档：https://mybatis.github.io/spring/index.html</descr
       <description>文档地址：https://pagehelper.github.io/
 当前版本：
 源码地址：
- https://github.com/pagehelper/Mybatis-PageHelper http://git.oschina.net/free/Mybatis_PageHelper  </description>
+https://github.com/pagehelper/Mybatis-PageHelper
+http://git.oschina.net/free/Mybatis_PageHelper</description>
     </item>
     
     <item>
@@ -61,7 +89,8 @@ MyBatis-Spring 官方文档：https://mybatis.github.io/spring/index.html</descr
       <description>文档地址：https://mapperhelper.github.io
 当前版本：
 源码地址：
- https://github.com/abel533/Mapper http://git.oschina.net/free/Mapper  </description>
+https://github.com/abel533/Mapper
+http://git.oschina.net/free/Mapper</description>
     </item>
     
     <item>
@@ -80,8 +109,13 @@ MyBatis-Spring 官方文档：https://mybatis.github.io/spring/index.html</descr
       
       <guid>https://mybatis3.github.io/post/6.samples/</guid>
       <description>MyBatis 和 Spring 集成示例  只有基础的配置信息，没有任何现成的功能，作为新手入门搭建框架的基础
-  集成Spring4.x - 下载zip 集成Spring3.x - 下载zip 集成Spring4.x(使用Oracle数据库) - 下载zip spring4-simple - 下载zip  前三个框架集成了 MyBatis 分页插件和 MyBatis 通用 Mapper，最后一个spring4-simple 没有集成任何插件。
-Spring Boot 和 MyBatis 集成示例 https://github.com/abel533/MyBatis-Spring-Boot
+ 集成Spring4.x - 下载zip
+集成Spring3.x - 下载zip
+集成Spring4.x(使用Oracle数据库) - 下载zip
+spring4-simple - 下载zip
+前三个框架集成了 MyBatis 分页插件和 MyBatis 通用 Mapper。
+最后一个spring4-simple 没有集成任何插件。
+Spring Boot 和 MyBatis 集成示例 地址：https://github.com/abel533/MyBatis-Spring-Boot
 上面这个项目集成了MyBatis 分页插件和 MyBatis 通用 Mapper.</description>
     </item>
     
@@ -91,16 +125,16 @@ Spring Boot 和 MyBatis 集成示例 https://github.com/abel533/MyBatis-Spring-B
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mybatis3.github.io/post/7.others/</guid>
-      <description>(1) JdbcType 自动配置插件 - 运行时自动添加 jdbcType 属性 源码地址： http://git.oschina.net/free/Mybatis_Utils/tree/master/JdbcType
-(2) SqlHelper - 获取sql gitosc地址： http://git.oschina.net/free/Mybatis_Utils/tree/master/SqlHelper
+      <description>1. JdbcType 自动配置插件 - 运行时自动添加 jdbcType 属性 源码地址： http://git.oschina.net/free/Mybatis_Utils/tree/master/JdbcType
+2. SqlHelper - 获取sql gitosc地址： http://git.oschina.net/free/Mybatis_Utils/tree/master/SqlHelper
 相关文章： http://blog.csdn.net/isea533/article/details/40044417
-(3) PerformanceInterceptor 性能拦截器，用于输出每条 SQL 语句及其执行时间 源码地址： http://git.oschina.net/free/Mybatis_Utils/tree/master/Performance
+3. PerformanceInterceptor 性能拦截器，用于输出每条 SQL 语句及其执行时间 源码地址： http://git.oschina.net/free/Mybatis_Utils/tree/master/Performance
 简单说明： 性能分析拦截器主要输出Sql以及Sql执行的时间，该拦截器会损失一定的整体性能，所以建议在测试环境使用，正式环境不建议使用。
 另外，如果配置了多个拦截器，那么一定要把这个拦截器配置在第一个，否则其他需要修改Sql的拦截器会对该拦截器获取Sql部分产生影响。
 建议根据个人需求对该拦截器进行修改。
-(4) CameHumpInterceptor 返回值Map结果的Key转为驼峰式 例如返回结果中Map的{REAL_NAME:liuzh}会转换为{realName:liuzh}
+4. CameHumpInterceptor 返回值Map结果的Key转为驼峰式 例如返回结果中Map的{REAL_NAME:liuzh}会转换为{realName:liuzh}
 源码地址： http://git.oschina.net/free/Mybatis_Utils/tree/master/CameHumpMap
-(5) MyBatis 返回动态结果类型插件 可以在 MyBatis 参数中带上要返回的类型Class，插件就会改变返回值类型为你指定的类型。
+5. MyBatis 返回动态结果类型插件 可以在 MyBatis 参数中带上要返回的类型Class，插件就会改变返回值类型为你指定的类型。
 相关文章： http://blog.csdn.net/isea533/article/details/52831556
 源码地址： http://git.oschina.net/free/Mybatis_Utils/tree/master/ResultType</description>
     </item>
@@ -133,7 +167,30 @@ GitOsc：http://git.oschina.net/free
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mybatis3.github.io/post/10.donate-list/</guid>
-      <description>￥2 blueandwh**** 微信支付2015-05-17 ￥10.00 王** 支付宝2015-06-10 ￥10.00 台** 支付宝2015-06-10 ￥10.00 陈** 支付宝2015-06-10 ￥2.00 叶** 支付宝2015-06-10 ￥1.00 竺** 支付宝2015-06-10 ￥10.00 方** 支付宝2015-06-10 ￥1.00 苏** 支付宝2015-06-10 ￥5.00 陈** 支付宝2015-06-10 ￥3.00 张** 支付宝2015-06-10 ￥10.00 朱** 支付宝2015-06-10 ￥5.00 屈** 支付宝2015-06-10 ￥10.00 威 微信支付2015-06-10 ￥2.00 快乐E调 微信支付2015-06-10 ￥2.00 晶晶 微信支付2015-06-10 ￥2.00 李秀文 微信支付2015-06-10 ￥5.00 巴蒂 微信支付2015-06-10 ￥10.00 美食地图 微信支付2015-06-10 ￥1.00 李海龙 微信支付2015-06-10 ￥4.50 豆豆 微信支付2015-06-10 ￥2.00 陈雷 微信支付2015-06-10 ￥10.01 千陌 微信支付2015-06-10 ￥10.00 微控 微信支付2015-06-10 ￥9.</description>
+      <description>￥2 blueandwh**** 微信支付2015-05-17
+￥10.00 王** 支付宝2015-06-10
+￥10.00 台** 支付宝2015-06-10
+￥10.00 陈** 支付宝2015-06-10
+￥2.00 叶** 支付宝2015-06-10
+￥1.00 竺** 支付宝2015-06-10
+￥10.00 方** 支付宝2015-06-10
+￥1.00 苏** 支付宝2015-06-10
+￥5.00 陈** 支付宝2015-06-10
+￥3.00 张** 支付宝2015-06-10
+￥10.00 朱** 支付宝2015-06-10
+￥5.00 屈** 支付宝2015-06-10
+￥10.00 威 微信支付2015-06-10
+￥2.00 快乐E调 微信支付2015-06-10
+￥2.00 晶晶 微信支付2015-06-10
+￥2.00 李秀文 微信支付2015-06-10
+￥5.00 巴蒂 微信支付2015-06-10
+￥10.00 美食地图 微信支付2015-06-10
+￥1.00 李海龙 微信支付2015-06-10
+￥4.50 豆豆 微信支付2015-06-10
+￥2.00 陈雷 微信支付2015-06-10
+￥10.01 千陌 微信支付2015-06-10
+￥10.00 微控 微信支付2015-06-10
+￥9.99 ckaiii 微信支付2015-06-10</description>
     </item>
     
   </channel>
