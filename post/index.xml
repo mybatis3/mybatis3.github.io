@@ -116,7 +116,11 @@ spring4-simple - 下载zip
 前三个框架集成了 MyBatis 分页插件和 MyBatis 通用 Mapper。
 最后一个spring4-simple 没有集成任何插件。
 Spring Boot 和 MyBatis 集成示例 地址：https://github.com/abel533/MyBatis-Spring-Boot
-上面这个项目集成了MyBatis 分页插件和 MyBatis 通用 Mapper.</description>
+上面这个项目集成了MyBatis 分页插件和 MyBatis 通用 Mapper.
+脚手架 Guns Guns 基于 SpringBoot 全面升级，完美整合 springmvc + shiro + MyBatis 通用 Mapper + 分页插件 PageHelper + beetl!
+本项目 fork 自 stylefeng 的 Guns！
+经过对 Guns 项目的修改，使得该项目成为一个通用 Mapper 和 分页插件使用的示例。
+项目地址： - GitHub: https://github.</description>
     </item>
     
     <item>
